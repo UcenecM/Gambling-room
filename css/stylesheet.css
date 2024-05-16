@@ -1,0 +1,319 @@
+body{
+  background-color: #636363;
+  background-image: url(slike/back.jpg);
+	
+
+}
+#menu {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 3px 15px 2px;
+  width: 70%;
+  height: 60%;
+  border-radius: 15px;
+  background: #000000;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+
+  #title {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Saira", sans-serif;
+    color: black;
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 0 0 4px #ffffff, 0 0 6px #ffffff;
+
+  }
+  
+  .player,
+  .playerGame {
+    position: absolute;
+    text-align: center;
+    font-family: "Saira", sans-serif;
+    color: rgb(0, 0, 0);
+    top: 15%;
+    font-size: 25px;
+    border: solid 5px #b1b1b1;
+    width: 22.5%;
+    height: 40%;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .playerGame {
+    height: 48%;
+  }
+  
+  #playerOne {
+    left: 7%;
+  }
+  
+  #playerTwo {
+    left: 38%;
+  }
+  
+  #playerThree {
+    left: 69%;
+  }
+  
+  .playerInput {
+    width: 140px;
+    height: 22px;
+    position: relative;
+    top: 20%;
+    border: none;
+    background-color: #c3e3f1;
+    font-family: "Saira", sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+  }
+  
+  .playerInput:focus,
+  #rounds:focus {
+    outline: none;
+  }
+  
+  #submit,
+  #results,
+  .roll {
+    position: absolute;
+    margin: 0;
+    top: 86%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    background-color: 	#D3D3D3;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    font-family: "Saira", sans-serif;
+    cursor: pointer;
+  }
+  
+  .playerTitle {
+    position: relative;
+    top: 10%;
+  }
+  
+  #userOne,
+  #userTwo,
+  #userThree {
+    font-size: 33px;
+  }
+  
+  .score,
+  .rollsLeft {
+    position: relative;
+    top: 7%;
+    font-size: 20px;
+  }
+  
+  .rollsLeft {
+    top: 18%;
+  }
+  
+  .roll {
+    padding: 10px 20px;
+    font-size: 21px;
+    top: 115%;
+  }
+  
+  #results {
+    font-size: 21px;
+    top: 89%;
+    padding: 11px 32px;
+    opacity: 0;
+    cursor: default;
+  }
+  
+  .disabled {
+    cursor: not-allowed;
+    background-color: 	#A9A9A9;
+  }
+  
+  .dicePic {
+    position: relative;
+    top: 79%;
+  }
+  
+  .winners {
+    background: rgba(255, 254, 254, 0.623);
+    position: absolute;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 9px;
+  }
+  
+  #second {
+    width: 25%;
+    height: 55%;
+    top: 44%;
+    left: 10%;
+    
+  }
+  
+  #first {
+    width: 25%;
+    height: 85%;
+    top: 14%;
+    left: 40%;
+  }
+  
+  #third {
+    width: 25%;
+    height: 35%;
+    top: 64%;
+    left: 70%;
+  }
+  
+  .number {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Saira", sans-serif;
+    color: white;
+    font-size: 80px;
+    top: 8%;
+  }
+  
+  #numberThree.number{
+    top: 17%;
+  }
+  #numberTwo.number{
+    top: 12%;
+  }
+  .name {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Saira", sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  #secondPlayer {
+    top: 30%;
+  }
+  
+  #firstPlayer {
+    top: 20%;
+  }
+  
+  #thirdPlayer {
+    top: 45%;
+  }
+  
+  #secondScore {
+    top: 45%;
+  }
+  
+  #firstScore {
+    top: 30%;
+  }
+  
+  #thirdScore {
+    top: 70%;
+  }
+  
+  #timeWrapper {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-family: "Saira", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: inline-table;
+  }
+  #time {
+    display: table-cell;
+  }
+  
+  #submit:hover,
+  .roll:hover,
+  #results:hover {
+    transition: 0.5s;
+    background-color: #63435d;
+  }
+  
+  #rounds,
+  #roundsTitle {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Saira", sans-serif;
+    top: 25%;
+  }
+  
+  #rounds {
+    width: 60px;
+    height: 22px;
+    font-family: "Saira", sans-serif;
+    top: 73%;
+    border: none;
+    background-color: #c3e3f1;
+    font-family: tahoma;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+  
+  #roundsWrapper {
+    position: absolute;
+    font-family: "Saira", sans-serif;
+    color: #c3e3f1;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: 	#D3D3D3;
+    width: 22.5%;
+    height: 15%;
+    left: 7%;
+    top: 77%;
+    font-size: 18.5px;
+  }
+  
+  #diceWrapper {
+    position: absolute;
+    font-family: "Saira", sans-serif;
+    color: #ffffff;
+    border: solid 4px #D3D3D3;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: 	#D3D3D3;
+    width: 22.5%;
+    height: 15%;
+    left: 69%;
+    top: 77%;
+    font-size: 18.5px;
+  }
+  
+  input,
+  select {
+    text-align: center;
+  }
+
+  .cas{
+    height: 200px;
+	margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  }
+  
